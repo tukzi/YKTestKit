@@ -1,0 +1,6 @@
+framework module YKTestKit {
+  umbrella header "YKTestKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

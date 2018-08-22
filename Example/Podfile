@@ -1,11 +1,5 @@
-use_frameworks!
 
 target 'YKTestKit_Example' do
-  pod 'YKTestKit', :path => '../'
-
-  target 'YKTestKit_Tests' do
-    inherit! :search_paths
-
-    
-  end
+    pod 'YKTestKit', :path => '../'
+    pod 'AFNetworking'
 end
